@@ -6,7 +6,7 @@ This repository contains skills originally built for a specific supplement subsc
 
 ## Original Author
 
-**[Founder Name]** — Founder of a personalised supplement subscription service. These skills were built to solve real operational problems: compliance anxiety, supplier vetting paralysis, trial pack economics, logistics coordination, and quiz-driven personalisation.
+**Colin Miley** — Founder of a personalised supplement subscription service. These skills were built to solve real operational problems: compliance anxiety, supplier vetting paralysis, trial pack economics, logistics coordination, and quiz-driven personalisation.
 
 ---
 
@@ -64,7 +64,7 @@ Specific data points, benchmarks, and best practices were sourced from:
 
 When adapting these skills for open-source publication:
 
-- All brand-specific references were replaced with `[Your Brand]` and `[Founder Name]` placeholders
+- All brand-specific references were replaced with `[Your Brand]` and `Colin Miley` placeholders
 - Pricing examples were preserved as `> **Example:** ...` callouts so readers see real numbers while understanding they need adaptation
 - Product names (Core Daily, Gut Microbe, Sleep, Stress, etc.) were kept as illustrative examples but marked as adaptable
 - The original `created_for: [Your Brand]` YAML field was replaced with `originally_built_for: [Your Brand]` as a credit line
