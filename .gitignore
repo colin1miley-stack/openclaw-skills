@@ -1,0 +1,94 @@
+# OpenClaw Skills — Git Ignore
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.example
+*.pem
+*.key
+config.json
+secrets.json
+
+# OpenClaw local configuration and state
+.openclaw/
+clawhub.config.json
+clawhub.credentials.json
+
+# Node.js / npm
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Output and generated artifacts
+output/
+dist/
+build/
+.cache/
+
+# Voice bridge and session artifacts (if applicable)
+.voice/
+*.voice-session
+session.jsonl
+
+# Test coverage and reports
+coverage/
+*.coverage
+htmlcov/
+.pytest_cache/
+
+# Backup files
+*.bak
+*.backup
+*.orig
