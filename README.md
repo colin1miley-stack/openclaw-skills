@@ -1,6 +1,6 @@
 # Open-Source Business Skills
 
-A collection of practical, production-ready skill guides for building and running a direct-to-consumer (DTC) subscription business. Originally built for a UK/Ireland supplement startup, now genericized for universal use.
+A collection of practical, production-ready skill guides for building and running a direct-to-consumer (DTC) subscription business. Originally built for a supplement startup, now genericized for universal use.
 
 These aren't theoretical frameworks — they're operational playbooks with checklists, templates, rubrics, and scripts you can use today.
 

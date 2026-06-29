@@ -12,7 +12,7 @@ description: >
   supplement manufacturers.
 author: colin
 license: MIT
-originally_built_for: Vitae10
+originally_built_for: [Your Brand]
 ---
 
 > Originally developed for a supplement subscription business, now genericized for universal use.
@@ -46,7 +46,7 @@ Find, evaluate, and contract with powder supplement manufacturers and co-packers
 | Price point | [Base subscription price]/month; add-ons [Add-on price]/month each |
 | First-run budget | [£X,XXX] maximum |
 | Month 1 target | [XX] customers |
-| Geography | UK primary; Ireland secondary |
+| Geography | [Primary market] primary; [Secondary market] secondary |
 
 ### Three Supplier Types
 
@@ -107,7 +107,7 @@ Find, evaluate, and contract with powder supplement manufacturers and co-packers
 "white label" supplement powder UK
 "powder blending" contract manufacturer UK
 "dry powder" stick pack filling UK
-supplement co-packer Ireland
+supplement co-packer [region]
 ```
 
 See [references/directories-and-shows.md](references/directories-and-shows.md) for more.

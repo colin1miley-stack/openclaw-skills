@@ -1,4 +1,4 @@
-# Contributing to Colin's OpenClaw Skills Collection
+# Contributing to OpenClaw Skills Collection
 
 Thank you for your interest in contributing! This collection is only as good as the community behind it. Whether you're fixing a typo, suggesting a new skill, or improving an existing one, your help is genuinely appreciated.
 
@@ -162,7 +162,7 @@ Violations may result in temporary or permanent removal from the project.
 
 ```bash
 # Clone the repo
-git clone https://github.com/colin/openclaw-skills.git
+git clone https://github.com/[github-username]/openclaw-skills.git
 cd openclaw-skills
 
 # Copy a skill to test locally

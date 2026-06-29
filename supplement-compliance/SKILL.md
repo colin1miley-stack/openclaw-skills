@@ -14,7 +14,7 @@ description: >
   "is this ingredient legal", or "do I need approval for...".
 author: colin
 license: MIT
-originally_built_for: Vitae10
+originally_built_for: [Your Brand]
 ---
 
 > Originally developed for a supplement subscription business, now genericized for universal use.

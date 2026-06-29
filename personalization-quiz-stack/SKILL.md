@@ -1,7 +1,7 @@
 ---
 name: personalization-quiz-stack
 description: Manage a personalization quiz via Typeform and store results in Airtable. Use when building the quiz, processing responses, generating recommendations, or syncing quiz data. Triggers on quiz, typeform, airtable, personalization, recommendation, or any mention of the wellness quiz or customer intake form.
-originally_built_for: Vitae10
+originally_built_for: [Your Brand]
 ---
 
 > Originally developed for a supplement subscription business, now genericized for universal use.
@@ -245,24 +245,24 @@ Hi {{name}},
 Thanks for completing the [Your Brand] wellness quiz. Based on your responses, here's your personalised supplement plan:
 
 **Your Base:**
-Core Daily + Gut Microbe — £39/month
+Core Daily + Gut Microbe — [£XX]/month
 30 sachets, one drink per day
 
 {% if addons %}
 **Your Add-Ons:**
 {% for addon in addons %}
-{{addon}} — £15/month
+{{addon}} — [£XX]/month
 {% endfor %}
 {% endif %}
 
-**Total:** £{{total}}/month
+**Total:** £[XX]/month
 
 **Why this plan?**
 Based on your quiz, you mentioned {{primary_goal}} as your top priority. {{recommendation_reason}}
 
 **Next Steps:**
 1. Review your plan above
-2. Start with a 7-day sample pack (£15) or subscribe now
+2. Start with a 7-day sample pack ([£XX]) or subscribe now
 3. Receive your first delivery within 3-5 working days
 
 [Start My Subscription] [Try Sample Pack First]

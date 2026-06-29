@@ -127,7 +127,7 @@ When returning results, use this format:
 # <Skill Name> <Emoji>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![ClawHub](https://img.shields.io/badge/ClawHub-Published-blue)](https://clawhub.ai/colin/<skill-name>)
+[![ClawHub](https://img.shields.io/badge/ClawHub-Published-blue)](https://clawhub.ai/[github-username]/<skill-name>)
 
 > One-line value proposition. This is what shows in social shares and search results.
 
@@ -144,7 +144,7 @@ When returning results, use this format:
 npx clawhub@latest install <skill-name>
 
 # Or clone manually
-git clone https://github.com/colin/openclaw-skills.git
+git clone https://github.com/[username]/openclaw-skills.git
 cp -r openclaw-skills/skills/<skill-name> ~/.openclaw/skills/<skill-name>
 ```
 
@@ -216,7 +216,7 @@ MIT — see [LICENSE](../LICENSE) for details.
 
 ---
 
-> If this skill saves you time, consider giving it a ⭐️ on [GitHub](https://github.com/colin/openclaw-skills)!
+> If this skill saves you time, consider giving it a ⭐️ on [GitHub](https://github.com/[github-username]/openclaw-skills)!
 ```
 
 ---

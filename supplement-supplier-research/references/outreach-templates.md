@@ -13,9 +13,9 @@
 Hi [Name],
 
 [Customise this paragraph only: How you found them + one specific thing.]
-> Example: I came across [Company Name] on the Vitafoods exhibitor list and was impressed by your focus on powder formats — specifically your stick-pack filling line. We're a UK-based startup launching a personalised daily powder supplement and are looking for a manufacturing partner.
+> Example: I came across [Company Name] on the Vitafoods exhibitor list and was impressed by your focus on powder formats — specifically your stick-pack filling line. We're a [region]-based startup launching a personalised daily powder supplement and are looking for a manufacturing partner.
 
-We're [Your Brand], a new supplement brand launching personalised daily powder sachets in the UK and Ireland. Our Phase 0 range starts with two core products:
+We're [Your Brand], a new supplement brand launching personalised daily powder sachets in [Primary Market]. Our Phase 0 range starts with two core products:
 
 - **Core Daily** — a comprehensive multivitamin/mineral blend
 - **Gut Microbe** — a prebiotic + probiotic powder blend

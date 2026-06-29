@@ -3,7 +3,7 @@ name: trial-product-economics
 description: Trial product economics and pricing psychology for subscription DTC brands. Break-even models, conversion benchmarks, and A/B testing plans for self-supporting trial products.
 author: colin
 license: MIT
-originally_built_for: Vitae10
+originally_built_for: [Your Brand]
 metadata:
   version: 1.0.0
   last_updated: 2026-06-29

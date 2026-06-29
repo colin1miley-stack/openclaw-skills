@@ -1,4 +1,4 @@
-# Week 1 Checklist — Colin's OpenClaw Skills Launch
+# Week 1 Checklist — [Founder Name]'s OpenClaw Skills Launch
 
 _Extracted from the [GitHub Optimization Guide](../GITHUB_OPTIMIZATION.md). Tasks are ordered by dependency and impact. Check them off as you go._
 
@@ -60,7 +60,7 @@ Get **1 polished skill** live on GitHub and ClawHub, with all foundational repo 
 |---|------|------|------------------|
 | 4.1 | **Add CONTRIBUTING.md.** How to submit issues, suggest features, open PRs. | 30 min | File is welcoming, specific, and includes a code of conduct. |
 | 4.2 | **Add CHANGELOG.md.** Start with v0.1.0. List all skills included. | 20 min | File follows Keep a Changelog format. v0.1.0 entry exists. |
-| 4.3 | **Add LICENSE.** MIT License with Colin's name and year 2026. | 5 min | LICENSE file is present at repo root with correct attribution. |
+| 4.3 | **Add LICENSE.** MIT License with your name and year 2026. | 5 min | LICENSE file is present at repo root with correct attribution. |
 | 4.4 | **Add .gitignore.** Appropriate for an OpenClaw skills repo. | 10 min | Ignores env files, local configs, temp files, and OS artifacts. |
 | 4.5 | **Add SKILL_TEMPLATE.md.** Template for future contributors. | 30 min | Template includes frontmatter, step-by-step structure, example, and checklist. |
 | 4.6 | **Enable GitHub Discussions.** Settings → Features → Discussions. | 5 min | Discussions tab is visible on the repo. |
@@ -78,7 +78,7 @@ Get **1 polished skill** live on GitHub and ClawHub, with all foundational repo 
 | 5.1 | **Install ClawHub CLI.** `npm install -g clawhub` | 5 min | `clawhub --version` returns a version number. |
 | 5.2 | **Authenticate.** `clawhub login` | 2 min | Successfully linked to GitHub account. |
 | 5.3 | **Publish the skill.** `clawhub skill publish ./skills/<skill-name>/` | 10 min | Command completes without errors. |
-| 5.4 | **Verify listing.** Visit `clawhub.ai/colin/<skill-name>` | 5 min | Skill appears on ClawHub with correct name, description, and metadata. |
+| 5.4 | **Verify listing.** Visit `clawhub.ai/[github-username]/<skill-name>` | 5 min | Skill appears on ClawHub with correct name, description, and metadata. |
 
 ### 💡 Tips for Day 5
 - **ClawHub ranking matters.** Encourage users to install via `clawhub install` (not just `git clone`) — installs count toward ranking.

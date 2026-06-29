@@ -1,7 +1,7 @@
 ---
 name: ecommerce-logistics
 description: Manage logistics, fulfillment, shipping, and returns for a DTC subscription brand. Use when processing orders, tracking shipments, managing inventory, handling returns, or coordinating with 3PL. Triggers on shipping, fulfillment, delivery, warehouse, 3PL, returns, inventory, stock, or any mention of logistics operations.
-originally_built_for: Vitae10
+originally_built_for: [Your Brand]
 ---
 
 > Originally developed for a supplement subscription business, now genericized for universal use.

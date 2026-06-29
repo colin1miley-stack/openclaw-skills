@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Initial Release
 
-The first public release of Colin's OpenClaw Skills Collection — a curated set of high-quality skills for AI agents, built around growth marketing, e-commerce operations, and SEO automation. Every skill is designed to be clear, actionable, and immediately useful.
+The first public release of [Founder Name]'s OpenClaw Skills Collection — a curated set of high-quality skills for AI agents, built around growth marketing, e-commerce operations, and SEO automation. Every skill is designed to be clear, actionable, and immediately useful.
 
 #### Growth & Marketing Funnel
 - **cold-start-strategy** — Plan and execute cold start strategies for new products. Covers finding first users, launch channels, and zero-to-one growth tactics.
@@ -108,11 +108,7 @@ The first public release of Colin's OpenClaw Skills Collection — a curated set
 - **logistics-fulfillment** — Manage logistics and fulfillment operations. Covers 3PLs, shipping, inventory, and delivery tracking.
 - **recharge-subscription-management** — Manage Recharge subscription workflows. Covers billing, churn, and retention automation.
 
-#### Vitae10-Specific (Supplement Brand)
-- **vitae10-context** — Maintain the core Vitae10 product and business context. Covers brand positioning, pricing, and roadmap.
-- **vitae10-quick-start** — Onboard and orient around Vitae10 operations. Covers setup, tools, and first-week priorities.
-- **vitae10-content-strategy** — Plan content marketing for the Vitae10 brand. Covers topics, channels, and editorial calendars.
-- **vitae10-sample-pack-funnel** — Optimize the sample pack conversion funnel. Covers landing pages, ads, and follow-up sequences.
+#### Supplement & DTC Operations
 - **sample-pack-economics** — Analyze and optimize sample pack unit economics. Covers pricing, COGS, and break-even modeling.
 - **supplement-compliance-uk** — Navigate UK supplement regulatory requirements. Covers labeling, claims, and compliance documentation.
 - **supplier-research** — Research and evaluate supplement suppliers. Covers manufacturers, packagers, 3PLs, and lab partners.
@@ -155,5 +151,5 @@ The first public release of Colin's OpenClaw Skills Collection — a curated set
 
 ---
 
-[Unreleased]: https://github.com/colin/openclaw-skills/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/colin/openclaw-skills/releases/tag/v0.1.0
+[Unreleased]: https://github.com/[github-username]/openclaw-skills/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/[github-username]/openclaw-skills/releases/tag/v0.1.0
