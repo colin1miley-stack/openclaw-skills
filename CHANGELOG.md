@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Initial Release
 
-The first public release of [Founder Name]'s OpenClaw Skills Collection — a curated set of high-quality skills for AI agents, built around growth marketing, e-commerce operations, and SEO automation. Every skill is designed to be clear, actionable, and immediately useful.
+The first public release of Colin Miley's OpenClaw Skills Collection — a curated set of high-quality skills for AI agents, built around growth marketing, e-commerce operations, and SEO automation. Every skill is designed to be clear, actionable, and immediately useful.
 
 #### Growth & Marketing Funnel
 - **cold-start-strategy** — Plan and execute cold start strategies for new products. Covers finding first users, launch channels, and zero-to-one growth tactics.
