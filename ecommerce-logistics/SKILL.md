@@ -285,7 +285,7 @@ Branded [Your Brand] envelope
 - Ship all orders within 24 hours (weekdays)
 - Use branded packaging for all shipments
 - Include welcome card in first order
-- Track all shipments and pro-actively notify delays
+- Track all shipments and proactively notify delays
 - Process returns within 48 hours of receipt
 - Maintain minimum 30-day safety stock
 - Reorder when stock drops below 100 units
