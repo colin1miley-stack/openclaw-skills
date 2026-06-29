@@ -1,4 +1,4 @@
-# Week 1 Checklist — [Founder Name]'s OpenClaw Skills Launch
+# Week 1 Checklist — Colin Miley's OpenClaw Skills Launch
 
 _Extracted from the [GitHub Optimization Guide](../GITHUB_OPTIMIZATION.md). Tasks are ordered by dependency and impact. Check them off as you go._
 
