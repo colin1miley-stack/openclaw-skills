@@ -162,7 +162,7 @@ Violations may result in temporary or permanent removal from the project.
 
 ```bash
 # Clone the repo
-git clone https://github.com/[github-username]/openclaw-skills.git
+git clone https://github.com/colin1miley-stack/openclaw-skills.git
 cd openclaw-skills
 
 # Copy a skill to test locally
