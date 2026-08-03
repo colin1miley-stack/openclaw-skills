@@ -153,7 +153,9 @@ These skills are living documents. If you find an error, have an improvement, or
 
 ## License
 
-MIT — use freely, adapt freely, credit appreciated.
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — free for individual use and learning. Attribution required.
+
+**Commercial use** (e.g., using these frameworks in paid client engagements or consultancy work) requires permission. Contact: colin@colinmiley.com
 
 See [ATTRIBUTION.md](ATTRIBUTION.md) for original sources and credits.
 

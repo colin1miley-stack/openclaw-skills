@@ -1,3 +1,8 @@
+<!--
+License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Copyright (c) 2026 Colin Miley — AI Revenue Systems
+Commercial use requires permission: colin@colinmiley.com
+-->
 ---
 name: structured-decision-framework
 description: |
