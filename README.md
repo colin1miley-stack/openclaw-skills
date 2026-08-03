@@ -14,7 +14,7 @@ These aren't theoretical playbooks — they're operational systems with decision
 | **[build-orchestrator](build-orchestrator/)** | Zero-tolerance build protocol with skill-reading enforcement, pre-flight checklists, and cost-tier gates | Anyone shipping AI-assisted builds |
 | **[audit-pipeline](audit-pipeline/)** | Graph-engineered topology for the AI Revenue Systems audit — from signal detection to proposal delivery | Sales consultants, FDEs, audit practitioners |
 | **[leak-to-retainer](leak-to-retainer-sales-system/)** | Turn public signals (hiring posts, tech changes, funding) into retainer proposals | B2B sales professionals, agency owners |
-| **[high-ticket-offer-architect](high-ticket-offer-architect/)** | 6-stage interview framework to build £1,000+ service offers | Consultants, coaches, solopreneurs |
+| **[high-ticket-offer-architect](high-ticket-offer-architect/)** | 6-stage interview framework to build €1,000+ service offers | Consultants, coaches, solopreneurs |
 | **[content-authenticity-enforcer](content-authenticity-enforcer/)** | Pre-publish credibility guard — verify every claim against your fact base | Content creators, founders, public speakers |
 | **[claude-mode-orchestrator](claude-mode-orchestrator/)** | Multi-agent workflow using Claude's modes (Standard, Extended, Fable, Mythos) | AI orchestrators, prompt engineers |
 
