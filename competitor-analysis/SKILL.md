@@ -6,7 +6,9 @@ license: MIT
 originally_built_for: [Your Brand]
 ---
 
-> Generic framework for universal use across any DTC or subscription business.
+> **Note:** UK competitor pricing shown in £ (GBP) — this is factual market data, not your pricing.
+
+ across any DTC or subscription business.
 
 # Competitor Monitoring Framework
 

@@ -284,11 +284,11 @@ Before delivering the package, verify:
 
 **Core Ideas:**
 1. AI doesn't replace strategy — it replaces the 2-hour task that keeps you from strategizing
-2. The £21/month tool stack that runs my entire content operation
+2. The 21/month tool stack that runs my entire content operation
 3. Why hiring a VA before building systems is burning money
 
 **LinkedIn Draft Preview:**
-> I spent £3,000 on a VA before I built a single system.
+> I spent 3,000 on a VA before I built a single system.
 >
 > She was great. But she was manually doing things that AI could handle in 30 seconds.
 >
@@ -297,7 +297,7 @@ Before delivering the package, verify:
 > Here's what I should have done first...
 
 **Nano Banana Prompt Preview:**
-> Create a LinkedIn carousel cover slide. Dimensions: 1080x1350. Dark navy background (#0F172A) with warm coral accent (#FF6B6B). Clean sans-serif typography in white. Text overlay: "I spent £3,000 on a VA before I built a single system." Minimal layout, high contrast, professional mood.
+> Create a LinkedIn carousel cover slide. Dimensions: 1080x1350. Dark navy background (#0F172A) with warm coral accent (#FF6B6B). Clean sans-serif typography in white. Text overlay: "I spent 3,000 on a VA before I built a single system." Minimal layout, high contrast, professional mood.
 
 ---
 

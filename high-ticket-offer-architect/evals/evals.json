@@ -1,0 +1,23 @@
+{
+  "skill_name": "high-ticket-offer-architect",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to create a high-ticket offer from my experience. I took voluntary redundancy in Nov 2024 to be a stay-at-home dad until Sept 2025, then started learning AI. Before that I was a Vodafone Account Director with 10 years in enterprise SaaS sales, MEDDIC-trained, managed a €10M portfolio. I pivoted to AI automation because I want to build something for my family. I help sales teams build AI systems that make money. I've already done consulting audits at £1,850. People ask me about AI workflows, sales automation, and how to use tools like OpenClaw. I want something scalable beyond 1:1 consulting.",
+      "expected_output": "Begin Stage 1 by acknowledging the user's background (Nov 2024 redundancy, dad period, Sept 2025 AI learning start) and asking follow-up questions about turning points. Then move through stages 2–6, extracting monetizable skills (AI workflow design, sales process optimization, tool stack curation), identifying market (sales directors at B2B SaaS companies, solopreneurs), shaping offer (likely a done-with-you implementation program or cohort-based course), validating £3K–£10K price point using ROI case (one saved deal = £50K+), and creating messaging hook around 'enterprise sales discipline meets AI speed.'",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I've completed Stage 1 and 2. My story: I lost 40kg after having my second child, going from pre-diabetic to running marathons, while working full-time as a lawyer. People constantly ask me how I did it without giving up my career or family time. My monetizable skill: creating sustainable fitness systems for busy professional women who've tried everything. I have 3 friends I've informally coached who all hit their goals. I want to sell a program but don't know the format or price.",
+      "expected_output": "Verify Stage 1–2 summaries with the user, then proceed to Stage 3 (Market Alignment). Identify target buyer: professional women (lawyers, doctors, executives) aged 30–45, pre-diabetic or insulin-resistant, who've failed at keto/gym/personal trainers. Trigger event: doctor's warning, seeing themselves in a photo, inability to keep up with kids. Then Stage 4: recommend a hybrid format — 12-week group cohort with 1:1 check-ins, habit tracking app, meal planning system. Stage 5: validate £2,000–£4,000 price using cost of inaction (diabetes meds £200/month, lost work days, early mortality) and proof (3 informal coaching successes + own transformation). Stage 6: hook around 'the lawyer who lost 40kg without meal prep or gym hours.'",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Help me validate my course idea. It's a $997 course on how to use ChatGPT for content creation. I've made $5K from it already. My audience is small business owners. I have 200 email subscribers.",
+      "expected_output": "This is a Stage 5/6 inquiry but stages 1–4 are incomplete or thin. The skill should NOT jump to pricing validation. Instead, it should redirect: acknowledge the $5K and 200 subscribers as useful data, then say 'Before we validate the price and messaging, let's make sure we've captured your full story and market. Let me read back what I know and fill in the gaps.' Then conduct a compressed Stage 1–2 to extract: what specific content creation transformation? (e.g., 'write a week's content in 2 hours'), who exactly? ('small business owners' is too vague — need: coaches, consultants, e-commerce operators), what's the proof? (testimonials, before/after content calendars). Only then move to Stage 5 to evaluate whether $997 is underpriced given the transformation, and Stage 6 for messaging.",
+      "files": []
+    }
+  ]
+}

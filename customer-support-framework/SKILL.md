@@ -141,7 +141,7 @@ Founder, [Your Brand]
 ```
 Hi {{ticket.requester.name}},
 
-Your refund of £{{amount}} has been processed and should appear in your account within 3–5 working days.
+Your refund of {{amount}} has been processed and should appear in your account within 3–5 working days.
 
 If you don't see it by {{expected_date}}, please let me know.
 

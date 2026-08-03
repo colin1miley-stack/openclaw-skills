@@ -1,0 +1,23 @@
+{
+  "skill_name": "leak-to-retainer-sales-system",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I had a call with Mike's HVAC in Dallas. He said they miss about 40% of after-hours calls during summer, his receptionist leaves at 5 PM, and they lost a $6,400 commercial job last week because nobody answered. Their Google reviews have 8 complaints about 'never call back.' Turn this into a one-page proposal: setup fee + $2,250/month retainer, 30-day pilot.",
+      "expected_output": "A one-page proposal structured as: (1) THE LEAK using Mike's own words about 40% missed after-hours calls and the $6,400 lost job, (2) THE FIX describing AI reception installed in ~14 days with 24/7 coverage, (3) THE PILOT terms (30-day cancel-anytime), (4) THE INVESTMENT ($2,250/month + setup fee), (5) EXPECTED ROI with specific numbers based on their call volume and job value. Must fit on one page and take ~90 seconds to read.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Generate this month's ROI report for Elite Plumbing (my client since March). This month: 247 total calls answered, 89 after-hours calls caught, 34 appointments booked directly into their calendar, 6 emergency dispatches. Their old receptionist cost $3,200/month and left at 5 PM. Average plumbing job is $1,800. Last Friday at 9:15 PM they booked a $4,200 emergency burst pipe job that would have gone to a competitor.",
+      "expected_output": "A one-page monthly ROI report leading with the biggest number (revenue protected). Structure: (1) THE BIG NUMBER — total revenue protected this month, (2) CALLS CAUGHT — total, after-hours, would-have-been-missed, (3) APPOINTMENTS BOOKED — direct bookings, emergency dispatches, average value, (4) VS. THE OLD WAY — comparison to $3,200/month receptionist with 5 PM cutoff, (5) THIS MONTH'S WINS — specific story about Friday 9:15 PM $4,200 burst pipe job, (6) NEXT MONTH — upsell suggestion.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I'm starting outreach to local roofing companies in Phoenix. Help me build a prioritized pipeline. I found 5 companies with bad Google reviews mentioning phone issues: (1) Desert Roof Co — 3 reviews say 'called 4 times, no answer,' jobs avg $12K, owner is active on LinkedIn; (2) SunShield Roofing — review says 'voicemail always full,' residential only, $8K avg; (3) Arizona Pro Roofers — no online booking, runs Google Ads, $15K commercial avg; (4) Peak Roofing — hiring receptionist on Indeed, $6K avg; (5) Titan Roof Solutions — 5 negative reviews about call response, 24/7 emergency service advertised but no after-hours intake, $10K avg.",
+      "expected_output": "A prioritized lead list with scores for each of the 5 companies using the Lead Scoring Matrix (Leak Severity, Revenue Potential, Readiness, Access — each 1–5). Desert Roof Co and Titan Roof Solutions should score highest (14+). Include specific signal quotes for each. Rank from highest to lowest score. Include recommended first-touch subject line and email opener using their exact review language.",
+      "files": []
+    }
+  ]
+}

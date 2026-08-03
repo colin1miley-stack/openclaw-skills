@@ -35,9 +35,9 @@ Design a free-to-premium stack. Each rung must require **zero live presence** at
 | Tier | Purpose | Example Formats |
 |------|---------|-----------------|
 | **Free** — Trust & discovery | Lead magnet, newsletter, social content, mini-tool | Checklist, calculator, 5-minute audit, PDF guide |
-| **Low** — First transaction | Digital product under £100 | Template, playbook, mini-course, Notion system, prompt pack |
+| **Low** — First transaction | Digital product under 100 | Template, playbook, mini-course, Notion system, prompt pack |
 | **Mid** — Core revenue | Productized service or course £200–£1,000 | Self-paced course with proprietary framework, cohort-based async course, tool/software |
-| **High** — Premium outcomes | High-ticket product £1,000+ | Licensed methodology, white-label system, community + curriculum, software |
+| **High** — Premium outcomes | High-ticket product 1,000+ | Licensed methodology, white-label system, community + curriculum, software |
 
 Rules:
 - Every tier must have a **named proprietary mechanism** (e.g., "The 3-Stack Audit," "The Specific Knowledge Excavator")
@@ -141,7 +141,7 @@ Format: *"[Product Name] is a [format] that helps [WHO] achieve [TRANSFORMATION]
 
 **Irreplaceability:** [Why a competitor can't copy this]
 
-**Price:** £[X] — [Rationale]
+**Price:** [X] — [Rationale]
 
 ## Distribution Channel
 
@@ -164,5 +164,5 @@ Format: *"[Product Name] is a [format] that helps [WHO] achieve [TRANSFORMATION]
 - **Reject live-dependent products.** If it requires the user's presence to deliver, redesign it.
 - **Every product must have a named mechanism.** Generic titles like "SEO Course" are banned. "The Keyword Gap System" is acceptable.
 - **Distribution must match existing platform.** Never recommend building on a platform from zero unless the user has no audience at all.
-- **Price by transformation, not volume.** A 20-page playbook that solves a £10K problem can cost £500. A 20-hour course that solves a £50 problem should cost £20.
+- **Price by transformation, not volume.** A 20-page playbook that solves a 10K problem can cost £500. A 20-hour course that solves a £50 problem should cost £20.
 - **The 30-day plan must be buildable.** Not aspirational. Actual tasks with actual tools.
