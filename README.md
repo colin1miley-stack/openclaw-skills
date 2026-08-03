@@ -95,6 +95,6 @@ See [ATTRIBUTION.md](ATTRIBUTION.md) for original sources and credits.
 
 ---
 
-> *Built by Colin Miley — 10 years enterprise sales, now Forward Deployed Engineer for B2B sales teams.*  
-> *Website: [ai-revenue-systems-site.vercel.app](https://ai-revenue-systems-site.vercel.app)*  
+> *Built by Colin Miley — Forward Deployed Engineer for B2B Sales Teams.*  
+> *Website: [colinmiley.com](https://colinmiley.com)*  
 > *LinkedIn: [linkedin.com/in/colin-miley](https://linkedin.com/in/colin-miley)*
