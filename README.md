@@ -1,8 +1,8 @@
-# Open-Source Business Skills
+# AI Revenue Systems — Open Skills
 
-A collection of practical, production-ready skill guides for building and running a direct-to-consumer (DTC) subscription business. Originally built for a supplement startup, now genericized for universal use.
+A collection of production-ready skill frameworks for AI-orchestrated revenue systems, sales automation, and solopreneur tooling. Built by Colin Miley, Forward Deployed Engineer for B2B sales teams.
 
-These aren't theoretical frameworks — they're operational playbooks with checklists, templates, rubrics, and scripts you can use today.
+These aren't theoretical playbooks — they're operational systems with decision frameworks, automation topologies, and execution checklists you can deploy today.
 
 ---
 
@@ -10,11 +10,13 @@ These aren't theoretical frameworks — they're operational playbooks with check
 
 | Skill | Description | Best For |
 |-------|-------------|----------|
-| **[supplement-compliance](supplement-compliance/)** | UK/EU food supplement compliance — ingredient checks, health claims, labelling rules, MHRA borderline guidance, novel foods | Anyone selling supplements in the UK/EU |
-| **[supplement-supplier-research](supplement-supplier-research/)** | Find, evaluate, and contract with powder supplement manufacturers. Outreach templates, MOQ comparison sheets, vetting checklists, negotiation scripts | Startups sourcing their first manufacturer |
-| **[trial-product-economics](trial-product-economics/)** | Break-even models, pricing psychology, conversion benchmarks, and A/B testing plans for self-supporting trial products | Subscription DTC brands using trial packs |
-| **[ecommerce-logistics](ecommerce-logistics/)** | Order fulfillment, shipping, 3PL coordination, returns processing, inventory tracking | DTC brands handling their own logistics |
-| **[personalization-quiz-stack](personalization-quiz-stack/)** | Build a personalization quiz with Typeform + Airtable. Recommendation logic, email templates, webhook integration | Brands doing quiz-driven product recommendations |
+| **[saas-identifier](saas-identifier/)** | 6-phase framework to evaluate SaaS opportunities vs productized services vs custom consulting | FDEs and consultants considering productization |
+| **[build-orchestrator](build-orchestrator/)** | Zero-tolerance build protocol with skill-reading enforcement, pre-flight checklists, and cost-tier gates | Anyone shipping AI-assisted builds |
+| **[audit-pipeline](audit-pipeline/)** | Graph-engineered topology for the AI Revenue Systems audit — from signal detection to proposal delivery | Sales consultants, FDEs, audit practitioners |
+| **[leak-to-retainer](leak-to-retainer-sales-system/)** | Turn public signals (hiring posts, tech changes, funding) into retainer proposals | B2B sales professionals, agency owners |
+| **[high-ticket-offer-architect](high-ticket-offer-architect/)** | 6-stage interview framework to build £1,000+ service offers | Consultants, coaches, solopreneurs |
+| **[content-authenticity-enforcer](content-authenticity-enforcer/)** | Pre-publish credibility guard — verify every claim against your fact base | Content creators, founders, public speakers |
+| **[claude-mode-orchestrator](claude-mode-orchestrator/)** | Multi-agent workflow using Claude's modes (Standard, Extended, Fable, Mythos) | AI orchestrators, prompt engineers |
 
 ---
 
@@ -24,7 +26,7 @@ Each skill is a self-contained directory with:
 
 - **`SKILL.md`** — The main guide. Start here.
 - **`references/`** — Supporting docs: templates, rubrics, checklists, examples
-- **Spreadsheets/models** — Where applicable (CSV files for financial modelling)
+- **Integration notes** — How this skill connects to others in the stack
 
 No config files. No templating engines. Just clean markdown you can read, copy, and adapt.
 
@@ -33,16 +35,16 @@ No config files. No templating engines. Just clean markdown you can read, copy, 
 1. **Pick the skill** that matches your current challenge
 2. **Read SKILL.md** front-to-back (most are 10–20 minutes)
 3. **Use the references** as worksheets and templates
-4. **Adapt the examples** to your brand, product, and market
+4. **Adapt the examples** to your brand, market, and workflow
 
 ---
 
 ## Who This Is For
 
-- **Solo founders** building their first product business
-- **Startups** in the supplement, wellness, or DTC space
-- **Operators** who need practical checklists, not blog posts
-- **Anyone** who wants to avoid the compliance, supplier, and logistics mistakes that kill early-stage brands
+- **Forward Deployed Engineers** embedding AI into B2B sales teams
+- **Solopreneurs** building AI-leveraged income streams
+- **Sales consultants** who need systematic audit and delivery frameworks
+- **AI orchestrators** who want production-ready patterns, not blog posts
 
 ---
 
@@ -51,9 +53,27 @@ No config files. No templating engines. Just clean markdown you can read, copy, 
 These skills were built with a few core beliefs:
 
 1. **Action over theory.** Every skill includes checklists, scripts, and templates you can use immediately.
-2. **Genericized but specific.** Real examples are preserved as `> **Example:** ...` callouts so you see what "good" looks like.
-3. **Phase-aware.** Most skills include recommendations for Phase 0 (launch), Phase 1 (ads), and Phase 2 (scale).
-4. **Compliance-first.** The supplement compliance skill isn't an afterthought — it's foundational. Getting this wrong kills businesses.
+2. **Systems over hacks.** Frameworks that compound, not one-off tricks.
+3. **Authenticity over aspiration.** Every claim verified. No fake it till you make it.
+4. **Integration over isolation.** Skills are designed to work together as a stack.
+
+---
+
+## The AI Revenue Systems Stack
+
+```
+┌─────────────────────────────────────────┐
+│  Content Engine (LinkedIn, Newsletter)   │
+├─────────────────────────────────────────┤
+│  Lead Capture (5-Min Audit → Calendly)   │
+├─────────────────────────────────────────┤
+│  Audit Delivery (Graph-Engineered)       │
+├─────────────────────────────────────────┤
+│  Implementation (FDE Retainer)           │
+├─────────────────────────────────────────┤
+│  Automation (n8n + OpenClaw + MCP)       │
+└─────────────────────────────────────────┘
+```
 
 ---
 
@@ -75,4 +95,6 @@ See [ATTRIBUTION.md](ATTRIBUTION.md) for original sources and credits.
 
 ---
 
-> *Built with care by a founder who learned these lessons the hard way so you don't have to.*
+> *Built by Colin Miley — 10 years enterprise sales, now Forward Deployed Engineer for B2B sales teams.*  
+> *Website: [ai-revenue-systems-site.vercel.app](https://ai-revenue-systems-site.vercel.app)*  
+> *LinkedIn: [linkedin.com/in/colin-miley](https://linkedin.com/in/colin-miley)*
