@@ -59,6 +59,7 @@ These aren't theoretical playbooks — they're operational systems with decision
 | **[product-launch-guide](product-launch-guide/)** | 30-day launch sequence with checklists | Product launches |
 | **[progress-enforcer](progress-enforcer/)** | Anti-procrastination system for long projects | Solo builders |
 | **[ai-voice-humanizer](ai-voice-humanizer/)** | Transform AI output into natural, human-sounding text | All user-facing content |
+| **[writing-style-guardrails](writing-style-guardrails/)** | Direct, human, plain-English writing with strong structural guardrails. **Fable 5 structure** | All user-facing content |
 | **[kimi-scaffolded-rollout](kimi-scaffolded-rollout/)** | Structured rollout plan for Kimi implementations | Enterprise teams |
 
 ---
@@ -103,7 +104,7 @@ skill-name/
 
 **Rule of thumb:** If a section is >40 lines or rarely needed during orientation, extract it to `references/`.
 
-Skills currently on Fable 5: `audit-pipeline`, `build-orchestrator`, `kimi-council`, `leak-to-retainer`, `systems-care-retainer`. More converted on-use.
+Skills currently on Fable 5: `audit-pipeline`, `build-orchestrator`, `kimi-council`, `leak-to-retainer`, `systems-care-retainer`, `writing-style-guardrails`. More converted on-use.
 
 ---
 
