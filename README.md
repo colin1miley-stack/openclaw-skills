@@ -13,8 +13,9 @@ These aren't theoretical playbooks — they're operational systems with decision
 | Skill | Description | Best For |
 |-------|-------------|----------|
 | **[saas-identifier](saas-identifier/)** | 6-phase framework to evaluate SaaS opportunities vs productized services vs custom consulting | FDEs and consultants considering productization |
-| **[audit-pipeline](audit-pipeline/)** | Graph-engineered topology for the AI Revenue Systems audit — from signal detection to proposal delivery | Sales consultants, FDEs, audit practitioners |
-| **[leak-to-retainer](leak-to-retainer/)** | Turn public signals (hiring posts, tech changes, funding) into retainer proposals | B2B sales professionals, agency owners |
+| **[audit-pipeline](audit-pipeline/)** | Graph-engineered topology for the AI Revenue Systems audit — from signal detection to proposal delivery. **Fable 5 structure:** `references/` + `evals/tests.md` | Sales consultants, FDEs, audit practitioners |
+| **[leak-to-retainer](leak-to-retainer/)** | Turn public signals (missed calls, bad reviews, no online booking) into retainer proposals. **Fable 5 structure:** `references/` + `evals/tests.md` | B2B sales professionals, agency owners |
+| **[systems-care-retainer](systems-care-retainer/)** | Manage ongoing €1,250/month retainers — health checks, maintenance, scope management, renewals. **Fable 5 structure:** `references/` + `evals/tests.md` | FDEs, sales consultants, retainer service providers |
 | **[high-ticket-offer-architect](high-ticket-offer-architect/)** | 6-stage interview framework to build €2,150+ service offers | Consultants, coaches, solopreneurs |
 | **[productize-yourself-blueprint](productize-yourself-blueprint/)** | Convert time-rented work into leveraged assets | Solopreneurs, knowledge workers |
 | **[specific-knowledge-excavator](specific-knowledge-excavator/)** | Mine your experience for monetizable expertise | Coaches, consultants, founders |
@@ -24,9 +25,9 @@ These aren't theoretical playbooks — they're operational systems with decision
 
 | Skill | Description | Best For |
 |-------|-------------|----------|
-| **[build-orchestrator](build-orchestrator/)** | Zero-tolerance build protocol with skill-reading enforcement, pre-flight checklists, and cost-tier gates | Anyone shipping AI-assisted builds |
+| **[build-orchestrator](build-orchestrator/)** | Zero-tolerance build protocol with skill-reading enforcement, pre-flight checklists, and cost-tier gates. **Fable 5 structure:** `references/` + `evals/tests.md` | Anyone shipping AI-assisted builds |
 | **[claude-mode-orchestrator](claude-mode-orchestrator/)** | Multi-agent workflow using Claude's modes (Standard, Extended, Fable, Mythos) | AI orchestrators, prompt engineers |
-| **[kimi-council](kimi-council/)** | Run structured council deliberations with multiple AI advisors | Complex decisions, strategy reviews |
+| **[kimi-council](kimi-council/)** | Run structured council deliberations with 5 advisors + anonymous peer review + chairman synthesis. **Fable 5 structure:** `references/` + `evals/tests.md` | Complex decisions, strategy reviews |
 | **[decision-framework](decision-framework/)** | Structured decision-making with confidence scoring | High-stakes choices |
 | **[after-action-extraction](after-action-extraction/)** | Extract learnings from completed projects | Teams, agencies |
 | **[content-repurposing-engine](content-repurposing-engine/)** | Turn one piece of content into 7+ platform-native formats | Content creators |
@@ -81,11 +82,36 @@ No config files. No templating engines. Just clean markdown you can read, copy, 
 
 ---
 
+## The Fable 5 Folder Process
+
+Skills marked with **"Fable 5 structure"** follow a standardised folder architecture inspired by Anthropic's skill-creator Fable 5 methodology:
+
+```
+skill-name/
+├── SKILL.md              ← Core only: purpose, overview, rules, quick ref (~70–90 lines)
+├── evals/
+│   └── tests.md          ← Self-evaluation test cases (3–5 per skill)
+└── references/
+    ├── <topic>.md        ← Extracted detail sections (was 40–150 lines in main file)
+    └── <templates>.md    ← Output schemas, rubrics, guides, examples
+```
+
+**Why this matters:**
+- **SKILL.md is an index, not a monolith.** Read it in 30 seconds. Drill into references when you need depth.
+- **Evals enforce quality.** Every skill can self-test its own failure modes.
+- **Progressive disclosure.** Agents and humans alike load only what they need.
+
+**Rule of thumb:** If a section is >40 lines or rarely needed during orientation, extract it to `references/`.
+
+Skills currently on Fable 5: `audit-pipeline`, `build-orchestrator`, `kimi-council`, `leak-to-retainer`, `systems-care-retainer`. More converted on-use.
+
+---
+
 ## Currency Note
 
 All prices in these skills are in **€ (EUR)** unless explicitly noted otherwise. This reflects the business base in Ireland and the EU market focus.
 
-Some archived legacy skills (in `archive/legacy-vitae10/`) contain £ (GBP) pricing from the discontinued supplement business. These are kept for reference only.
+Some archived legacy skills (in `archive/legacy-revenueritual/`) contain £ (GBP) pricing from the discontinued supplement business. These are kept for reference only.
 
 ---
 
@@ -134,7 +160,7 @@ When updating skills or creating new ones, run this sequence:
 | Step | Agent | Checks |
 |------|-------|--------|
 | 1 | **Content-Authenticity-Enforcer** | Every claim verified against fact base |
-| 2 | **Brand-Guardian** | € currency, FDE descriptor, no Vitae10 refs |
+| 2 | **Brand-Guardian** | € currency, FDE descriptor, no revenueritual refs |
 | 3 | **Copy-Editor** | Typos, grammar, clarity |
 | 4 | **Currency-Checker** | All prices in €, no £ or $ (unless intentional) |
 | 5 | **Colin (Human)** | Final approval before push |

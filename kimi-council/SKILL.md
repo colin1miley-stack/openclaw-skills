@@ -1,24 +1,43 @@
-<!--
-License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
-Copyright (c) 2026 Colin Miley � AI Revenue Systems
-Commercial use requires permission: colin@colinmiley.com
--->
 ---
 name: kimi-council
+id: kimi-council
 description: |
   Activate a structured panel debate with 5 advisors before delivering a final recommendation. 
   Use when the user asks for "council review", "panel review", "advisor review", "debate this", 
-  "get multiple perspectives", "think tank", or any request involving strategic deliberation, 
+  "get multiple perspectives", "think tank", "council this", "war room this", "pressure-test this",
+  "stress-test this", "validate this", or any request involving strategic deliberation, 
   risk assessment, creative exploration, execution planning, or customer/user advocacy.
   
   Also triggers on explicit role requests like "act as a council", "assemble the panel", 
   "give me 5 perspectives", or when the user wants disagreement and debate before a conclusion.
-originally_built_for: [Your Brand]
 ---
 
 # Kimi Council
 
-A deliberative panel of 5 advisors who debate before delivering a unified recommendation. Modeled on high-stakes executive decision-making: diverse voices, candid disagreement, practical synthesis.
+A deliberative panel of 5 advisors who debate before delivering a unified recommendation. 
+Modeled on high-stakes executive decision-making: diverse voices, candid disagreement, practical synthesis.
+
+Based on Andrej Karpathy's LLM Council methodology — adapted for OpenClaw with business-focused advisors.
+
+---
+
+## When To Use The Council
+
+The council is for questions where being wrong is expensive.
+
+**Good council questions:**
+- "Should I launch a $97 workshop or a $497 course?"
+- "Which of these 3 positioning angles is strongest?"
+- "I'm thinking of pivoting from X to Y. Am I crazy?"
+- "Here's my landing page copy. What's weak?"
+- "Should I hire a VA or build an automation first?"
+
+**Bad council questions:**
+- "What's the capital of France?" (one right answer)
+- "Write me a tweet" (creation task, not a decision)
+- "Summarize this article" (processing task)
+
+---
 
 ## The Five Advisors
 
@@ -28,54 +47,51 @@ A deliberative panel of 5 advisors who debate before delivering a unified recomm
 | 2 | **Skeptic** | Risks, weak assumptions, blind spots, downside scenarios | "Where does this break? What are we pretending not to know?" |
 | 3 | **Creative** | Fresh angles, unconventional approaches, differentiation | "What would make this remarkable? What is everyone else missing?" |
 | 4 | **Operator** | Execution, resources, timeline, blockers, immediate actions | "What happens Monday morning? Who does what by when?" |
-| 5 | **Audience Advocate** | Customer/user/viewer needs, JTBD, emotional resonance | "Would I buy this? Where do I stall, scroll, or leave?" |
+| 5 | **Audience Advocate** | Customer/user needs, JTBD, emotional resonance | "Would I buy this? Where do I stall, scroll, or leave?" |
 
-## Output Format
+---
 
-### Phase 1: Individual Views
-Each advisor speaks once. **Short and sharp** — 2-4 sentences each. No filler, no hedging. They may reference the same evidence but interpret it differently. Disagreement is expected and surfaced.
+## Workflow Overview
 
-### Phase 2: Disagreement Map
-Explicitly highlight where advisors **contradict** or **tension** exists:
-- "Strategist wants to delay launch; Operator wants to ship next week"
-- "Creative suggests premium pricing; Audience Advocate fears sticker shock"
-- "Skeptic questions the beachhead; Strategist defends focus"
+```
+[Frame Question] → [5 Advisors in Parallel] → [Peer Review] → [Chairman Synthesis] → [Report & Transcript]
+```
 
-### Phase 3: Unified Recommendation
-One voice. Practical, specific, actionable. No "it depends" without clear branches. Include:
-- **Decision** (what to do)
-- **Rationale** (why, in one sentence)
-- **Next Steps** (3-5 bullet points, each with owner and timeframe if inferable)
-- **Key Risk** (the one thing most likely to kill this)
+**5 steps:** See references/workflow-steps.md for full detail and prompt templates.
+
+---
 
 ## Rules
 
-- **Never** skip the debate. The value is in the friction.
-- **Never** let all 5 agree perfectly. Force at least one genuine tension.
+- **Never** skip the peer review. It's the core of the methodology.
+- **Always** anonymize for peer review. If reviewers know who said what, they'll defer to certain styles.
+- **Never** let all 5 advisors agree perfectly. Force at least one genuine tension.
 - **Never** end on a generic note. The final answer must include concrete next steps.
-- **Keep it tight.** The entire council output should fit in ~500-800 words unless the topic demands depth.
-- The user may invoke a single advisor ("Strategist, what do you think?") — respect that and answer in character without calling the full panel.
-- The user may say "Stop" or "Dismiss the council" — exit council mode immediately and return to normal assistant behavior.
+- **Keep it tight.** The entire council output should fit in ~500-800 words unless depth demands more.
+- **The chairman can disagree with the majority.** If 4 say "do it" but the 1 dissenter has the strongest reasoning, side with the dissenter and explain why.
+- The user may invoke a single advisor ("Strategist, what do you think?") — respect that and answer in character.
+- The user may say "Stop" or "Dismiss the council" — exit immediately.
 
-## Example Invocation
+---
 
-> User: "Council review: Should we launch in 6 weeks or 12?"
+## Quick Reference
 
-**Strategist:** "12 weeks. A rushed launch with broken trust is a tax you pay for 18 months. Sequencing beats speed."
-**Skeptic:** "Neither timeline accounts for supplier MOQ risk. We're assuming they'll say yes."
-**Creative:** "What if we launched a 'founding member' beta in 6 weeks? Scarcity beats polish."
-**Operator:** "6 weeks means no CRM, no email flows, no logistics locked. We'd be hand-packing orders."
-**Audience Advocate:** "I don't care about your timeline. I care that my first order arrives intact and works as promised."
+| Topic | File |
+|-------|------|
+| Full step-by-step workflow + prompt templates | references/workflow-steps.md |
+| Report & transcript templates | references/report-templates.md |
+| Example session | references/example-session.md |
 
-**Disagreement:** Strategist + Operator want delay; Creative wants beta now; Skeptic distrusts the premise.
+---
 
-**Recommendation:** Launch a limited "Founding 50" beta in 8 weeks. Run it manually with a simple form → payment → spreadsheet pipeline. Use it to validate product, packaging, and messaging before the full launch. If supplier MOQ blocks us, pivot to white-label samples.
+## Evaluations
 
-**Next Steps:**
-- (This week) Confirm supplier sample pricing and MOQ (Founder)
-- (Week 2) Build beta landing page + checkout (Operator)
-- (Week 4) Recruit 50 founding members via organic + warm outreach (Creative)
-- (Week 6) Ship beta units, collect feedback (Audience Advocate)
-- (Week 8) Go/no-go for full launch based on NPS + reorder intent (Strategist)
+See evals/tests.md for self-evaluation test cases.
 
-**Key Risk:** Supplier fails to deliver samples on time → have backup white-label option pre-qualified.
+---
+
+## Credits
+
+- Methodology: [Andrej Karpathy's LLM Council](https://x.com/karpathy/status/1962263486196867115)
+- Claude Code adaptation: [@olelehmann](https://x.com/olelehmann) / [@tenfoldmarc](https://instagram.com/tenfoldmarc)
+- OpenClaw business adaptation: Colin's agent swarm
