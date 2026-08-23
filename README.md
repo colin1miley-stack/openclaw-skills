@@ -13,9 +13,9 @@ These aren't theoretical playbooks — they're operational systems with decision
 | Skill | Description | Best For |
 |-------|-------------|----------|
 | **[saas-identifier](saas-identifier/)** | 6-phase framework to evaluate SaaS opportunities vs productized services vs custom consulting | FDEs and consultants considering productization |
-| **[audit-pipeline](audit-pipeline/)** | Graph-engineered topology for the AI Revenue Systems audit — from signal detection to proposal delivery. **Fable 5 structure:** `references/` + `evals/tests.md` | Sales consultants, FDEs, audit practitioners |
-| **[leak-to-retainer](leak-to-retainer/)** | Turn public signals (missed calls, bad reviews, no online booking) into retainer proposals. **Fable 5 structure:** `references/` + `evals/tests.md` | B2B sales professionals, agency owners |
-| **[systems-care-retainer](systems-care-retainer/)** | Manage ongoing €1,250/month retainers — health checks, maintenance, scope management, renewals. **Fable 5 structure:** `references/` + `evals/tests.md` | FDEs, sales consultants, retainer service providers |
+| **[audit-pipeline](audit-pipeline/)** | Graph-engineered topology for the AI Revenue Systems audit — from signal detection to proposal delivery. *�* | Sales consultants, FDEs, audit practitioners |
+| **[leak-to-retainer](leak-to-retainer/)** | Turn public signals (missed calls, bad reviews, no online booking) into retainer proposals. *�* | B2B sales professionals, agency owners |
+| **[systems-care-retainer](systems-care-retainer/)** | Manage ongoing €1,250/month retainers — health checks, maintenance, scope management, renewals. *�* | FDEs, sales consultants, retainer service providers |
 | **[high-ticket-offer-architect](high-ticket-offer-architect/)** | 6-stage interview framework to build €2,150+ service offers | Consultants, coaches, solopreneurs |
 | **[productize-yourself-blueprint](productize-yourself-blueprint/)** | Convert time-rented work into leveraged assets | Solopreneurs, knowledge workers |
 | **[specific-knowledge-excavator](specific-knowledge-excavator/)** | Mine your experience for monetizable expertise | Coaches, consultants, founders |
@@ -25,9 +25,9 @@ These aren't theoretical playbooks — they're operational systems with decision
 
 | Skill | Description | Best For |
 |-------|-------------|----------|
-| **[build-orchestrator](build-orchestrator/)** | Zero-tolerance build protocol with skill-reading enforcement, pre-flight checklists, and cost-tier gates. **Fable 5 structure:** `references/` + `evals/tests.md` | Anyone shipping AI-assisted builds |
+| **[build-orchestrator](build-orchestrator/)** | Zero-tolerance build protocol with skill-reading enforcement, pre-flight checklists, and cost-tier gates. *�* | Anyone shipping AI-assisted builds |
 | **[claude-mode-orchestrator](claude-mode-orchestrator/)** | Multi-agent workflow using Claude's modes (Standard, Extended, Fable, Mythos) | AI orchestrators, prompt engineers |
-| **[kimi-council](kimi-council/)** | Run structured council deliberations with 5 advisors + anonymous peer review + chairman synthesis. **Fable 5 structure:** `references/` + `evals/tests.md` | Complex decisions, strategy reviews |
+| **[kimi-council](kimi-council/)** | Run structured council deliberations with 5 advisors + anonymous peer review + chairman synthesis. *�* | Complex decisions, strategy reviews |
 | **[decision-framework](decision-framework/)** | Structured decision-making with confidence scoring | High-stakes choices |
 | **[after-action-extraction](after-action-extraction/)** | Extract learnings from completed projects | Teams, agencies |
 | **[content-repurposing-engine](content-repurposing-engine/)** | Turn one piece of content into 7+ platform-native formats | Content creators |
@@ -59,8 +59,10 @@ These aren't theoretical playbooks — they're operational systems with decision
 | **[product-launch-guide](product-launch-guide/)** | 30-day launch sequence with checklists | Product launches |
 | **[progress-enforcer](progress-enforcer/)** | Anti-procrastination system for long projects | Solo builders |
 | **[ai-voice-humanizer](ai-voice-humanizer/)** | Transform AI output into natural, human-sounding text | All user-facing content |
-| **[writing-style-guardrails](writing-style-guardrails/)** | Direct, human, plain-English writing with strong structural guardrails. **Fable 5 structure** | All user-facing content |
+| **[writing-style-guardrails](writing-style-guardrails/)** | Direct, human, plain-English writing with strong structural guardrails. *†* | All user-facing content |
 | **[kimi-scaffolded-rollout](kimi-scaffolded-rollout/)** | Structured rollout plan for Kimi implementations | Enterprise teams |
+
+*† = Fable 5 structured skill: includes `references/` + `evals/tests.md` — see [Fable 5 Folder Process](#the-fable-5-folder-process) below.*
 
 ---
 
