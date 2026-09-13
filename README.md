@@ -114,8 +114,6 @@ Skills currently on Fable 5: `audit-pipeline`, `build-orchestrator`, `kimi-counc
 
 All prices in these skills are in **€ (EUR)** unless explicitly noted otherwise. This reflects the business base in Ireland and the EU market focus.
 
-Some archived legacy skills (in `archive/legacy-revenueritual/`) contain £ (GBP) pricing from the discontinued supplement business. These are kept for reference only.
-
 ---
 
 ## Who This Is For
@@ -163,7 +161,7 @@ When updating skills or creating new ones, run this sequence:
 | Step | Agent | Checks |
 |------|-------|--------|
 | 1 | **Content-Authenticity-Enforcer** | Every claim verified against fact base |
-| 2 | **Brand-Guardian** | € currency, FDE descriptor, no revenueritual refs |
+| 2 | **Brand-Guardian** | € currency, FDE descriptor, consistent brand voice |
 | 3 | **Copy-Editor** | Typos, grammar, clarity |
 | 4 | **Currency-Checker** | All prices in €, no £ or $ (unless intentional) |
 | 5 | **Colin (Human)** | Final approval before push |
