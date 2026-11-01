@@ -41,6 +41,15 @@ These aren't theoretical playbooks — they're operational systems with decision
 | **[competitor-analysis](competitor-analysis/)** | Monitor competitor activity — pricing, launches, campaigns | DTC and subscription brands |
 | **[customer-support-framework](customer-support-framework/)** | Handle inquiries, complaints, returns, shipping issues | DTC brands |
 
+### Axiom Product Ops
+
+| Skill | Description | Best For |
+|-------|-------------|----------|
+| **[research-review](research-review/)** | Evidence-gated review protocol for research briefs — verify claims, map to locked doctrine, add what the research missed, hold the GO boundary | Reviewing any analysis before deciding |
+| **[vertical-wedge-playbook](vertical-wedge-playbook/)** | Turn a named company into an opportunity brief — persona alignment, pain→module map, three wedge slots, outreach framing | Approaching a target company or vertical |
+| **[x402-skill-build](x402-skill-build/)** | Build a new X402-metered scan skill — spec first, deterministic scoring, honest-basis wedge, canonical citations, full verification battery | Adding paid skills to the marketplace |
+| **[ship-task](ship-task/)** | Owner-GO to deployed-and-ledgered: ownership claim, verification battery, explicit-path commit, dual ledgers | Shipping any approved build in the Axiom multi-agent repo |
+
 ### Operations & Infrastructure
 
 | Skill | Description | Best For |
@@ -146,7 +155,7 @@ These skills were built with a few core beliefs:
 ├─────────────────────────────────────────┤
 │  Audit Delivery (Graph-Engineered)       │
 ├─────────────────────────────────────────┤
-│  Implementation (FDE Retainer)           │
+│  Implementation (FDE Retainer)         │
 ├─────────────────────────────────────────┤
 │  Automation (n8n + OpenClaw + MCP)       │
 └─────────────────────────────────────────┘
